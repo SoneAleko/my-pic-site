@@ -126,7 +126,7 @@ export function generateId(): string {
 export function getOutputFileName(
   originalName: string,
   outputFormat: OutputFormat,
-  originalMime: string
+  _originalMime: string
 ): string {
   const dot = originalName.lastIndexOf('.');
   const base = dot > -1 ? originalName.slice(0, dot) : originalName;

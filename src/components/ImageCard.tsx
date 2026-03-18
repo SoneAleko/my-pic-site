@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { ImageFile } from '../types';
-import { formatBytes, calcRatio, getOutputFileName } from '../utils/compress';
+import { formatBytes, calcRatio } from '../utils/compress';
 
 interface ImageCardProps {
   image: ImageFile;

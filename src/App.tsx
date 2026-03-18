@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { UploadZone } from './components/UploadZone';
 import { SettingsPanel } from './components/SettingsPanel';
 import { ImageCard } from './components/ImageCard';
